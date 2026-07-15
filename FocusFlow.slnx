@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FocusFlow.Application/FocusFlow.Application.csproj" />
+    <Project Path="src/FocusFlow.Domain/FocusFlow.Domain.csproj" />
+    <Project Path="src/FocusFlow.Infrastructure/FocusFlow.Infrastructure.csproj" />
+    <Project Path="src/FocusFlow.Mobile/FocusFlow.Mobile.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FocusFlow.Application.Tests/FocusFlow.Application.Tests.csproj" />
+    <Project Path="tests/FocusFlow.Domain.Tests/FocusFlow.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
