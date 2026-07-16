@@ -1,16 +1,18 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MauiApplication = Microsoft.Maui.Controls.Application;
+using MauiWindow = Microsoft.Maui.Controls.Window;
 
 namespace FocusFlow.Mobile;
 
-public partial class App : Application
+public partial class App : MauiApplication
 {
-	public App()
-	{
-		InitializeComponent();
-	}
+    public App()
+    {
+        InitializeComponent();
+    }
 
-	protected override Window CreateWindow(IActivationState? activationState)
-	{
-		return new Window(new AppShell());
-	}
+    protected override MauiWindow CreateWindow(
+        IActivationState? activationState)
+    {
+        return new MauiWindow(new AppShell());
+    }
 }
