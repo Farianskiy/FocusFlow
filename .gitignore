@@ -492,3 +492,8 @@ $RECYCLE.BIN/
 # Local secrets
 secrets.json
 appsettings.Local.json
+
+*.db
+*.db3
+*.db-shm
+*.db-wal

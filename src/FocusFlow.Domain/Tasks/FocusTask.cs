@@ -4,8 +4,8 @@ namespace FocusFlow.Domain.Tasks;
 
 public sealed class FocusTask : AggregateRoot
 {
-    private readonly HashSet<Guid>
-        _completedFocusSessionIds = [];
+    private HashSet<Guid>
+    _completedFocusSessionIds = [];
 
     private FocusTask(
         FocusTaskTitle title,
